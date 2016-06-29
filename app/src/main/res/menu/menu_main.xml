@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/miCompose"
+        android:icon="@drawable/star1"
+        app:showAsAction="ifRoom"
+        android:title="Compose"
+        android:layout_gravity="right">
+    </item>
+    <item
+        android:id="@+id/miProfile"
+        android:icon="@drawable/peth"
+        app:showAsAction="ifRoom"
+        android:title="Profile"
+        android:layout_gravity="left">
+    </item>
+</menu>
